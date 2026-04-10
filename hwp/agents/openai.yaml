@@ -1,0 +1,4 @@
+interface:
+  display_name: "HWP"
+  short_description: "Draft Korean HWP/HWPX documents from sample templates"
+  default_prompt: "Use $hwp to draft, revise, or validate a Korean HWP/HWPX document from the bundled templates, sample families, and rulebooks."

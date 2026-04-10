@@ -1,0 +1,21 @@
+{
+  "name": "default-review-rulebook",
+  "required_any": [
+    {
+      "label": "review purpose",
+      "phrases": [
+        "검토목적",
+        "범위 설정 기준 정립"
+      ]
+    },
+    {
+      "label": "conclusion language",
+      "phrases": [
+        "종합 검토의견",
+        "적정 적용방향",
+        "종합 판단"
+      ]
+    }
+  ],
+  "forbidden_phrases": []
+}
