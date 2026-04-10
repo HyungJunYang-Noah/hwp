@@ -30,9 +30,10 @@ The generator preserves the packaged template structure, including the familiar 
    - Override `--template` when a different bundled sample is a better match.
 4. Validate the draft when quality matters.
    - Use `scripts/review_generated_doc.py` with a rulebook from `assets/rules/`.
+   - Keep bundled default rulebooks lightweight. If the user names mandatory phrases for the current document, enforce them in the payload or create a task-local rulebook in the workspace instead of editing the bundled default rulebook.
 5. Promote repeated feedback into reusable behavior.
    - Update the payload for a one-off change.
-   - Update a rulebook or reference note for repeated guidance.
+   - Update a rulebook or reference note only when the guidance is stable across repeated documents.
    - Patch a script only when generator behavior is wrong.
 6. Write outputs into the active task workspace, not into the skill folder.
 
