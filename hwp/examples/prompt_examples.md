@@ -17,11 +17,11 @@ $hwp 스킬을 사용해서 샘플 양식으로 하천정비사업 구간 정비
 ```
 
 ```text
-$hwp 스킬을 사용해서 examples/blank_review_template.hwpx 양식 느낌으로 신규 산업단지 진입도로 폭 검토서를 작성해줘.
+$hwp 스킬을 사용해서 examples/Sample.hwpx 양식 느낌으로 신규 산업단지 진입도로 폭 검토서를 작성해줘.
 ```
 
 ```text
-$hwp 스킬을 사용해서 내가 준 markdown 메모를 검토서 형식의 .hwpx로 바꿔줘.
+$hwp 스킬을 사용해서 examples/Example_Request.md를 기반으로 검토서 형식의 .hwpx를 만들어줘.
 ```
 
 ```text

@@ -7,7 +7,13 @@ description: Draft, revise, and validate Korean Hancom `.hwp` and `.hwpx` docume
 
 Use sample-first generation for Hancom documents. Prefer `.hwpx` for editable output and treat `.hwp` as reference material unless the user explicitly asks for a separate conversion or desktop-editing workflow.
 
-This skill is bundled around a Korean `검토서` template family. The generator preserves the packaged template structure, including the familiar boxed section layout, paragraph style IDs, and character styling from the Hancom source template instead of rebuilding the page from scratch.
+This skill is bundled around a Korean `검토서` template family.
+
+- Default generation template: `scripts/templates/base_report_template.hwpx`
+- Source family: `검토서_기본템플릿.hwpx`
+- Blank sample form: `examples/Sample.hwpx`, copied from `검토서_기본템플릿_빈양식.hwpx`
+
+The generator preserves the packaged template structure, including the familiar boxed section layout, paragraph style IDs, and character styling from the Hancom source template instead of rebuilding the page from scratch.
 
 ## Default Workflow
 
