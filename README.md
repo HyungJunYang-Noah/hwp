@@ -174,11 +174,27 @@ $hwp 스킬을 사용해서 hwp/examples/Example_Request.md를 읽고 같은 형
 - Windows
 - Codex 사용 가능 환경
 - Python 3 설치 및 PATH 등록
+- 한글(Hancom Office 한/글) 설치 권장
 
 추가 설명
 - 스킬 자체는 폴더 복사만으로 설치됩니다.
 - 다만 `.hwpx` 생성 및 검토 스크립트를 쓰려면 Python 3가 필요합니다.
 - 기본 설치 대상은 로컬 사용자 Codex 스킬 폴더입니다.
+
+## 한글 설치가 필요한가
+
+정리하면 아래와 같습니다.
+
+- 스킬 설치 자체:
+  - 한글이 없어도 가능합니다.
+- Codex로 `.hwpx` 초안 생성:
+  - Python 3만 있으면 가능합니다.
+- 생성된 `.hwpx` 열기, 눈으로 확인하기, 수동 수정하기:
+  - PC에 한글(Hancom Office 한/글)이 설치되어 있는 것이 사실상 필요합니다.
+- 실제 실무 문서로 마감하고 편집하기:
+  - 한글 설치를 권장하는 수준이 아니라 거의 필수에 가깝습니다.
+
+즉, 이 패키지는 한글이 없어도 설치되고 `.hwpx` 생성까지는 가능하지만, 배포본에 들어 있는 `hwp/examples/Sample.hwpx`, `hwp/examples/Review_Reference.hwpx`, `hwp/examples/Example_Generated.hwpx`를 실제로 열어보고 수정하려면 한글 프로그램이 설치되어 있어야 합니다.
 
 ## 주의 사항
 
