@@ -7,6 +7,8 @@ description: Draft, revise, and validate Korean Hancom `.hwp` and `.hwpx` docume
 
 Use sample-first generation for Hancom documents. Prefer `.hwpx` for editable output and treat `.hwp` as reference material unless the user explicitly asks for a separate conversion or desktop-editing workflow.
 
+This skill is bundled around a Korean `검토서` template family. The generator preserves the packaged template structure, including the familiar boxed section layout, paragraph style IDs, and character styling from the Hancom source template instead of rebuilding the page from scratch.
+
 ## Default Workflow
 
 1. Identify the closest document family.
@@ -47,6 +49,7 @@ python scripts/review_generated_doc.py --document .\result.hwpx --rules .\assets
 
 ## References
 
+- Read `examples/` first when the user wants to mimic the bundled review-document family or asks for a concrete example.
 - Read `references/workspace-samples.md` for the bundled template set and representative sample outputs.
 - Read `references/payloads.md` for the payload schema and preset guidance.
 - Read `references/revision-loop.md` when the user gives qualitative feedback on repeated drafts.

@@ -1,6 +1,6 @@
 # Prompt Examples
 
-## 설치 요청 예시
+## Install Requests
 
 ```text
 이 폴더에 있는 hwp 스킬을 설치해줘.
@@ -10,7 +10,7 @@
 현재 폴더의 hwp 폴더를 내 Codex 스킬 폴더에 설치해줘.
 ```
 
-## 사용 요청 예시
+## Use Requests
 
 ```text
 $hwp 스킬을 사용해서 샘플 양식으로 하천정비사업 구간 정비 범위에 대한 검토서를 만들어줘.
