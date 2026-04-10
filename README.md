@@ -1,6 +1,6 @@
 # HWP Skill Package
 
-## 이 패키지가 하는 일
+## HWP Skill 이란?
 
 이 패키지는 Codex에서 사용할 수 있는 `hwp` 스킬 배포본입니다.
 
